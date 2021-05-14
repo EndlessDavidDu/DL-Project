@@ -9,6 +9,7 @@ The dataset can be downloaded from http://thuctc.thunlp.org/
 
 This project is mainly divided into two parts. One part is the Chinese news classification model based on Word2vec word vector, and the other part is the classification model based on Ernie and Bert. These two sections are placed in two folders. In each section, the folder "model" defines the relevant model and the configuration information for each model. The results of the training of the model are saved in "save" and "save_information".
 In addition, the LoggerClass.py file is primarily used for logging. Utils.py focuses on some common methods. run.py is the entry point to my program, and by calling it, the model is trained. The specific invocation method is as follows:
-python run.py --model ERNIE
+
+### python run.py --model ERNIE
 
 In addition, the pre-training language models are placed in their own folders. For example, the Bert model is in the bert_pretain directory and the Ernie model is in the ERNIE_pretrain directory.
