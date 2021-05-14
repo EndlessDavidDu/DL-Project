@@ -1,0 +1,1 @@
+nohup python run.py --model TextRNN >/dev/null 2>&1 &
